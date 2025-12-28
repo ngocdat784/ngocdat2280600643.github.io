@@ -71,7 +71,7 @@ Ví dụ let name = &#34;Ngọc Đạt&#34;; let age = 20; Giải thích:
 name là biến lưu chuỗi “Ngọc Đạt” age là biến lưu số 20 2. Cách khai báo biến trong JavaScript JavaScript có 3 từ khóa để khai báo biến.">
   <meta itemprop="datePublished" content="2025-12-22T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-12-22T00:00:00+00:00">
-  <meta itemprop="wordCount" content="464">
+  <meta itemprop="wordCount" content="449">
   <meta itemprop="keywords" content="Js-Co-Ban"><meta property="og:url" content="https://ngocdat784.github.io/ngocdat2280600643.github.io/posts/js-bien-va-kieu-du-lieu/">
   <meta property="og:site_name" content="Ký sự Lập trình Web & JavaScript">
   <meta property="og:title" content="Biến và Kiểu dữ liệu trong JavaScript">
@@ -206,7 +206,7 @@ Dữ liệu này có thể là số, chuỗi, đúng/sai, danh sách, đối tư
 <li>Dễ gây lỗi</li>
 <li>Không kiểm soát tốt phạm vi (scope)</li>
 </ul>
-<p>👉 <strong>Không nên dùng trong code JavaScript hiện đại</strong></p>
+<p><strong>Không nên dùng trong code JavaScript hiện đại</strong></p>
 <hr>
 <h3 id="22-let-nên-dùng">2.2. <code>let</code> (nên dùng)</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">score</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>;
@@ -221,11 +221,11 @@ Dữ liệu này có thể là số, chuỗi, đúng/sai, danh sách, đối tư
 <h3 id="23-const-hằng-số">2.3. <code>const</code> (hằng số)</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">PI</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14</span>;
 </span></span></code></pre></div><ul>
-<li>✔ Không thể gán lại giá trị</li>
-<li>❌ Gán lại sẽ gây lỗi</li>
+<li>Không thể gán lại giá trị</li>
+<li>Gán lại sẽ gây lỗi</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">PI</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.15</span>; <span style="color:#75715e">// ❌ Error
-</span></span></span></code></pre></div><p>👉 Dùng <code>const</code> khi <strong>không muốn dữ liệu bị thay đổi</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">PI</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.15</span>; <span style="color:#75715e">//  Error
+</span></span></span></code></pre></div><p>Dùng <code>const</code> khi <strong>không muốn dữ liệu bị thay đổi</strong></p>
 <hr>
 <h2 id="3-quy-tắc-đặt-tên-biến">3. Quy tắc đặt tên biến</h2>
 <h3 id="hợp-lệ">Hợp lệ</h3>
@@ -236,19 +236,19 @@ Dữ liệu này có thể là số, chuỗi, đúng/sai, danh sách, đối tư
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#ae81ff">1</span><span style="color:#a6e22e">name</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">user</span><span style="color:#f92672">-</span><span style="color:#a6e22e">name</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#66d9ef">let</span>;
-</span></span></code></pre></div><p>📌 <strong>Quy ước phổ biến:</strong> dùng <strong>camelCase</strong></p>
+</span></span></code></pre></div><p><strong>Quy ước phổ biến:</strong> dùng <strong>camelCase</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">studentName</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">totalScore</span>;
 </span></span></code></pre></div><hr>
 <h2 id="4-kiểu-dữ-liệu-trong-javascript">4. Kiểu dữ liệu trong JavaScript</h2>
 <p>JavaScript là ngôn ngữ <strong>dynamic typing</strong>
-👉 Không cần khai báo kiểu dữ liệu trước</p>
+Không cần khai báo kiểu dữ liệu trước</p>
 <hr>
 <h3 id="41-number--kiểu-số">4.1. Number – Kiểu số</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">c</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>;
-</span></span></code></pre></div><p>👉 JavaScript <strong>không phân biệt số nguyên và số thực</strong></p>
+</span></span></code></pre></div><p>JavaScript <strong>không phân biệt số nguyên và số thực</strong></p>
 <hr>
 <h3 id="42-string--chuỗi">4.2. String – Chuỗi</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;JavaScript&#34;</span>;
@@ -265,7 +265,7 @@ Dữ liệu này có thể là số, chuỗi, đúng/sai, danh sách, đối tư
 <h3 id="43-boolean--đúng--sai">4.3. Boolean – Đúng / Sai</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">isLogin</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">isAdmin</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
-</span></span></code></pre></div><p>👉 Thường dùng trong:</p>
+</span></span></code></pre></div><p>Thường dùng trong:</p>
 <ul>
 <li>Câu điều kiện</li>
 <li>Kiểm tra trạng thái</li>
@@ -274,11 +274,11 @@ Dữ liệu này có thể là số, chuỗi, đúng/sai, danh sách, đối tư
 <h3 id="44-undefined">4.4. Undefined</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">x</span>;
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">x</span>); <span style="color:#75715e">// undefined
-</span></span></span></code></pre></div><p>👉 Biến đã khai báo nhưng <strong>chưa gán giá trị</strong></p>
+</span></span></span></code></pre></div><p>Biến đã khai báo nhưng <strong>chưa gán giá trị</strong></p>
 <hr>
 <h3 id="45-null">4.5. Null</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span>;
-</span></span></code></pre></div><p>👉 Chủ động gán giá trị <strong>rỗng</strong></p>
+</span></span></code></pre></div><p>Chủ động gán giá trị <strong>rỗng</strong></p>
 <p><strong>Phân biệt:</strong></p>
 <ul>
 <li><code>undefined</code>: chưa gán</li>
@@ -291,20 +291,20 @@ Dữ liệu này có thể là số, chuỗi, đúng/sai, danh sách, đối tư
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">age</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">20</span>,
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">isMale</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>
 </span></span><span style="display:flex;"><span>};
-</span></span></code></pre></div><p>👉 Object dùng để <strong>gom nhiều dữ liệu liên quan</strong></p>
+</span></span></code></pre></div><p>Object dùng để <strong>gom nhiều dữ liệu liên quan</strong></p>
 <hr>
 <h3 id="47-array--mảng">4.7. Array – Mảng</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">numbers</span> <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>];
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fruits</span> <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;Táo&#34;</span>, <span style="color:#e6db74">&#34;Cam&#34;</span>, <span style="color:#e6db74">&#34;Chuối&#34;</span>];
-</span></span></code></pre></div><p>👉 Mảng là <strong>một dạng Object đặc biệt</strong></p>
+</span></span></code></pre></div><p>Mảng là <strong>một dạng Object đặc biệt</strong></p>
 <hr>
 <h2 id="5-kiểm-tra-kiểu-dữ-liệu-với-typeof">5. Kiểm tra kiểu dữ liệu với <code>typeof</code></h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">typeof</span> <span style="color:#ae81ff">10</span>;        <span style="color:#75715e">// &#34;number&#34;
 </span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">typeof</span> <span style="color:#e6db74">&#34;Hello&#34;</span>; <span style="color:#75715e">// &#34;string&#34;
 </span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">typeof</span> <span style="color:#66d9ef">true</span>;     <span style="color:#75715e">// &#34;boolean&#34;
 </span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">typeof</span> <span style="color:#66d9ef">undefined</span>;<span style="color:#75715e">// &#34;undefined&#34;
-</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">typeof</span> <span style="color:#66d9ef">null</span>;     <span style="color:#75715e">// &#34;object&#34; ❗ (lỗi lịch sử của JS)
-</span></span></span></code></pre></div><p>📌 <strong>Lưu ý quan trọng:</strong></p>
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">typeof</span> <span style="color:#66d9ef">null</span>;     <span style="color:#75715e">// &#34;object&#34;  (lỗi lịch sử của JS)
+</span></span></span></code></pre></div><p><strong>Lưu ý quan trọng:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">typeof</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;object&#34;</span> <span style="color:#75715e">// true (dễ gây nhầm lẫn)
 </span></span></span></code></pre></div></section>
 

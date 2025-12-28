@@ -34,14 +34,21 @@ Di chuyển chuột
 Gửi form
 Load trang
 
-👉 JavaScript dùng event để tương tác với người dùng
+JavaScript dùng event để tương tác với người dùng
 
 2. Các cách gắn sự kiện
-❌ Cách 1: Inline HTML (không khuyến khích)
+Cách 1: Inline HTML (không khuyến khích)
 &lt;button onclick=&#34;alert(&#39;Hello&#39;)&#34;&gt;Click&lt;/button&gt;
-❌ Khó quản lý
-❌ Không sạch code
-🔹 Cách 2: Gán qua thuộc tính" />
+Khó quản lý
+Không sạch code
+🔹 Cách 2: Gán qua thuộc tính
+let btn = document.querySelector(&#34;button&#34;);
+
+btn.onclick = function() {
+  alert(&#34;Click&#34;);
+};
+Dễ hiểu
+Ghi đè sự kiện cũ" />
   <meta name="author" content="Ký sự Lập trình Web &amp; JavaScript" /><link rel="preload stylesheet" as="style" href="https://ngocdat784.github.io/ngocdat2280600643.github.io/main.min.css" />
 
   
@@ -70,19 +77,21 @@ Load trang
   <meta name="generator" content="Hugo 0.153.1">
   <meta itemprop="name" content="Xử lý sự kiện trong JavaScript">
   <meta itemprop="description" content="1. Sự kiện (Event) là gì? Sự kiện (Event) là những hành động xảy ra khi người dùng:
-Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang 👉 JavaScript dùng event để tương tác với người dùng
-2. Các cách gắn sự kiện ❌ Cách 1: Inline HTML (không khuyến khích) &lt;button onclick=&#34;alert(&#39;Hello&#39;)&#34;&gt;Click&lt;/button&gt; ❌ Khó quản lý ❌ Không sạch code
-🔹 Cách 2: Gán qua thuộc tính">
+Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang JavaScript dùng event để tương tác với người dùng
+2. Các cách gắn sự kiện Cách 1: Inline HTML (không khuyến khích) &lt;button onclick=&#34;alert(&#39;Hello&#39;)&#34;&gt;Click&lt;/button&gt; Khó quản lý Không sạch code
+🔹 Cách 2: Gán qua thuộc tính
+let btn = document.querySelector(&#34;button&#34;); btn.onclick = function() { alert(&#34;Click&#34;); }; Dễ hiểu Ghi đè sự kiện cũ">
   <meta itemprop="datePublished" content="2025-12-22T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-12-22T00:00:00+00:00">
-  <meta itemprop="wordCount" content="339">
+  <meta itemprop="wordCount" content="321">
   <meta itemprop="keywords" content="Js-Dom"><meta property="og:url" content="https://ngocdat784.github.io/ngocdat2280600643.github.io/posts/js-event-trong-web/">
   <meta property="og:site_name" content="Ký sự Lập trình Web & JavaScript">
   <meta property="og:title" content="Xử lý sự kiện trong JavaScript">
   <meta property="og:description" content="1. Sự kiện (Event) là gì? Sự kiện (Event) là những hành động xảy ra khi người dùng:
-Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang 👉 JavaScript dùng event để tương tác với người dùng
-2. Các cách gắn sự kiện ❌ Cách 1: Inline HTML (không khuyến khích) &lt;button onclick=&#34;alert(&#39;Hello&#39;)&#34;&gt;Click&lt;/button&gt; ❌ Khó quản lý ❌ Không sạch code
-🔹 Cách 2: Gán qua thuộc tính">
+Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang JavaScript dùng event để tương tác với người dùng
+2. Các cách gắn sự kiện Cách 1: Inline HTML (không khuyến khích) &lt;button onclick=&#34;alert(&#39;Hello&#39;)&#34;&gt;Click&lt;/button&gt; Khó quản lý Không sạch code
+🔹 Cách 2: Gán qua thuộc tính
+let btn = document.querySelector(&#34;button&#34;); btn.onclick = function() { alert(&#34;Click&#34;); }; Dễ hiểu Ghi đè sự kiện cũ">
   <meta property="og:locale" content="vi">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -93,9 +102,10 @@ Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang 👉 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Xử lý sự kiện trong JavaScript">
   <meta name="twitter:description" content="1. Sự kiện (Event) là gì? Sự kiện (Event) là những hành động xảy ra khi người dùng:
-Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang 👉 JavaScript dùng event để tương tác với người dùng
-2. Các cách gắn sự kiện ❌ Cách 1: Inline HTML (không khuyến khích) &lt;button onclick=&#34;alert(&#39;Hello&#39;)&#34;&gt;Click&lt;/button&gt; ❌ Khó quản lý ❌ Không sạch code
-🔹 Cách 2: Gán qua thuộc tính">
+Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang JavaScript dùng event để tương tác với người dùng
+2. Các cách gắn sự kiện Cách 1: Inline HTML (không khuyến khích) &lt;button onclick=&#34;alert(&#39;Hello&#39;)&#34;&gt;Click&lt;/button&gt; Khó quản lý Không sạch code
+🔹 Cách 2: Gán qua thuộc tính
+let btn = document.querySelector(&#34;button&#34;); btn.onclick = function() { alert(&#34;Click&#34;); }; Dễ hiểu Ghi đè sự kiện cũ">
 
   <link rel="canonical" href="https://ngocdat784.github.io/ngocdat2280600643.github.io/posts/js-event-trong-web/" />
 </head>
@@ -200,27 +210,27 @@ Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang 👉 
 <li>Gửi form</li>
 <li>Load trang</li>
 </ul>
-<p>👉 JavaScript dùng event để <strong>tương tác với người dùng</strong></p>
+<p>JavaScript dùng event để <strong>tương tác với người dùng</strong></p>
 <hr>
 <h2 id="2-các-cách-gắn-sự-kiện">2. Các cách gắn sự kiện</h2>
-<h3 id="-cách-1-inline-html-không-khuyến-khích">❌ Cách 1: Inline HTML (không khuyến khích)</h3>
+<h3 id="cách-1-inline-html-không-khuyến-khích">Cách 1: Inline HTML (không khuyến khích)</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">button</span> <span style="color:#a6e22e">onclick</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;alert(&#39;Hello&#39;)&#34;</span><span style="color:#f92672">&gt;</span><span style="color:#a6e22e">Click</span><span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/button&gt;</span>
-</span></span></code></pre></div><p>❌ Khó quản lý
-❌ Không sạch code</p>
+</span></span></code></pre></div><p>Khó quản lý
+Không sạch code</p>
 <p>🔹 Cách 2: Gán qua thuộc tính</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">btn</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;button&#34;</span>);
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">btn</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>() {
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#34;Click&#34;</span>);
 </span></span><span style="display:flex;"><span>};
-</span></span></code></pre></div><p>✔ Dễ hiểu
-❌ Ghi đè sự kiện cũ</p>
-<p>✅ Cách 3: addEventListener (nên dùng)</p>
+</span></span></code></pre></div><p>Dễ hiểu
+Ghi đè sự kiện cũ</p>
+<p>Cách 3: addEventListener (nên dùng)</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">btn</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, <span style="color:#66d9ef">function</span>() {
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#34;Click&#34;</span>);
 </span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><p>✔ Gắn nhiều event
-✔ Chuẩn hiện đại</p>
+</span></span></code></pre></div><p>Gắn nhiều event
+Chuẩn hiện đại</p>
 <ol start="3">
 <li>Các sự kiện phổ biến
 <table>
@@ -279,7 +289,7 @@ Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang 👉 
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">btn</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">event</span>) {
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">event</span>);
 </span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><p>👉 event chứa:</p>
+</span></span></code></pre></div><p>event chứa:</p>
 <p>Loại sự kiện</p>
 <p>Phần tử gây ra sự kiện</p>
 <p>Vị trí chuột, phím bấm…</p>
@@ -287,7 +297,7 @@ Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang 👉 
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>document.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">e</span>) {
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">target</span>);
 </span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><p>👉 Phần tử được click</p>
+</span></span></code></pre></div><p>Phần tử được click</p>
 <ol start="5">
 <li>Ngăn hành vi mặc định
 🔹 preventDefault()</li>
@@ -301,7 +311,7 @@ Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang 👉 
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">preventDefault</span>();
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Không reload trang&#34;</span>);
 </span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><p>👉 Rất quan trọng khi làm form</p>
+</span></span></code></pre></div><p>Rất quan trọng khi làm form</p>
 <ol start="6">
 <li>Bắt sự kiện nhập liệu</li>
 </ol>
@@ -319,10 +329,10 @@ Click chuột Nhập dữ liệu Di chuyển chuột Gửi form Load trang 👉 
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">parent</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, () =&gt; <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Parent&#34;</span>));
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">child</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, () =&gt; <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Child&#34;</span>));
-</span></span></code></pre></div><p>👉 Click button:</p>
+</span></span></code></pre></div><p>Click button:</p>
 <p>Child
 Parent</p>
-<p>📌 Đây gọi là bubbling</p>
+<p>Đây gọi là bubbling</p>
 <ol start="8">
 <li>Event Delegation (rất hay dùng)</li>
 </ol>
@@ -332,7 +342,7 @@ Parent</p>
 </span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">innerText</span>);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><p>👉 Dùng khi:</p>
+</span></span></code></pre></div><p>Dùng khi:</p>
 <p>Danh sách động</p>
 <p>Nhiều phần tử con</p>
 <ol start="9">
@@ -347,9 +357,9 @@ Click đổi màu nền:</li>
 </span></span></code></pre></div><ol start="10">
 <li>Lỗi thường gặp</li>
 </ol>
-<p>❌ Gắn event khi DOM chưa load
-❌ Dùng inline event
-❌ Quên preventDefault khi submit form
+<p>Gắn event khi DOM chưa load
+Dùng inline event
+Quên preventDefault khi submit form
 11. So sánh nhanh</p>
 <table>
   <thead>
